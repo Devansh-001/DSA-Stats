@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSA Stats</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="containor">
+        <!-- heading -->
+
+        <div id="title-containor">
+            <h1>DSA Stats</h1>
+        </div>
+
+
+        <!-- User Input -->
+        <div class="platform-containor">
+
+            <div class="user-containor">
+                <p>Enter your Leetcode username.</p>
+                <div class="user-input-containor">
+                    <input type="text" placeholder="Username?" id="leetCodeUser-input">
+                    <button id="leetCodeSearch-btn">Search</button>
+                </div>
+            </div>
+
+            <!-- Stats -->
+
+            <div class="leetCodeStats-containor">
+
+                <div class="progress">
+
+                    <div class="progress-item">
+                        <div class="leetCodeEasy-progress">
+                            <span id="leetCodeEasy-label"></span>
+                            Easy
+                        </div>
+                    </div>
+
+
+                    <div class="progress-item">
+                        <div class="leetCodeMedium-progress">
+                            <span id="leetCodeMedium-label"></span>
+                            Medium
+                        </div>
+                    </div>
+
+                    <div class="progress-item">
+                        <div class="leetCodeHard-progress">
+                            <span id="leetCodeHard-label"></span>
+                            Hard
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <div class="leetCodeOverAllAccuracy">
+                        </div>
+                    </div>
+                    
+
+                </div>
+
+                <div class="leetCodeRecentProblems">
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
